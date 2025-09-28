@@ -1,0 +1,48 @@
+# --- Unity build & cache folders (NEVER commit) ---
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+UserSettings/        # Per-user editor prefs; safe to ignore
+
+# --- Unity cache / auto files ---
+sysinfo.txt
+*.stackdump
+
+# --- IDEs / editors ---
+.vscode/
+.vs/
+.idea/
+*.sln
+*.csproj
+*.unityproj
+*.pidb
+*.suo
+*.user
+*.userprefs
+
+# --- Platform/build artifacts ---
+*.apk
+*.aab
+*.ipa
+*.dsym
+*.xcuserstate
+*.xcworkspace
+DerivedData/          # Xcode cache
+
+# --- Gradle / Android studio caches ---
+.gradle/
+*.iml
+.gradle/
+**/local.properties
+
+# --- Crash / profiler dumps ---
+*.dmp
+*.memgraph
+
+# --- OS noise ---
+.DS_Store
+Thumbs.db
